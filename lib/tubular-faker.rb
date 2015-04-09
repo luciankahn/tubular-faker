@@ -1,4 +1,4 @@
-module Tubular
+module TubularFaker
 
   GENERAL = {
     adjectives: ["Awesome", "Tubular", "Radical", "Mega", "Bomb", "Tight", "Dope", "Chillin'", "Rockin' Rappin'", "Cowabunga", "Far Out", "Whatever", "Booyah", "Hasta la Vista", "Fly", "Phat", "Wild and Crazy", "Bogus", "Busted", "Mondo", "Exactamundo", "Tubuloso", "Rad", "Wicked", "Hella", "Gnarly", "Cyber", "Nuclear", "Grunge", "Creepy", "Spooky", "Absolute", "Total", "Extreme"]
@@ -30,6 +30,6 @@ module Tubular
 end
 
 
-puts Tubular.name
-puts Tubular.company
-puts Tubular.city
+puts TubularFaker.name
+puts TubularFaker.company
+puts TubularFaker.city
