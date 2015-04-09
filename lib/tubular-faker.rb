@@ -55,5 +55,3 @@ module TubularFaker
   end
 
 end
-
-puts TubularFaker.lingo
