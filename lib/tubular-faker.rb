@@ -43,7 +43,7 @@ module TubularFaker
   end
   
   def self.email
-    "#{NAMES[:first_names].sample.gsub(/e/, 3).gsub(/i/, 1).gsub(/o/, 0)}@#{INTERNET[:domains]}#{INTERNET[:dot]}"
+    "#{NAMES[:first_names].sample.gsub(/e/, "3").gsub(/i/, "1").gsub(/o/, "0")}@#{INTERNET[:domains]}#{INTERNET[:dot]}"
   end
 
   def self.url
