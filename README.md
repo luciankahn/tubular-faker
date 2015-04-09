@@ -15,7 +15,7 @@
 
 * TubularFaker.url => http://www.hotmail.com/mariah1994/chatroom.html, http://www.tripod.com/tiffani666/guestbook.html
 
-* TubularFaker.catchphrase => Take a chill pill!, Kewl beans.
+* TubularFaker.lingo => Take a chill pill!, Kewl beans.
 
 * TubularFaker.date => 8/11/1999, 4/2/1995
 
