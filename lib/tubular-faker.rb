@@ -29,6 +29,7 @@ module TubularFaker
 
 end
 
+########################### Examples: ####################################
 
 puts TubularFaker.name
 puts TubularFaker.company
