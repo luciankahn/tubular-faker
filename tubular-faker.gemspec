@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name              = 'tubular-faker'
-  s.version           = '0.0.1'
+  s.version           = '0.1.0'
   s.date              = '2015-04-08'
   s.summary           = "90's-themed fake data gem for seeding databases,
                         lorem ipsum, etc."
