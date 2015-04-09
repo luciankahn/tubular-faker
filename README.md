@@ -16,5 +16,6 @@
 ### Contributing
 
 * Test your code.
-* Make a pull request.
+* Pull and merge the "development" branch into your local branch before making a pull request. 
+* Make your pull request to "development", not master!
 * Be funny.
