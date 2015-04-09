@@ -7,9 +7,9 @@
 
 ### Methods and Example Output
 
-* TubularFaker.name => Balki Flockhart, Bjork Duchovny, MacGyver Rza
+* TubularFaker.name => Balki Cobain, Bjork Duchovny, The Notorious Urkel
 
-* TubularFaker.company => Whatever Cereal, Spooky Pogs, Hasta la Vista Dot-Com
+* TubularFaker.company => Whatever Cereal, Rockin' Rappin' Scrunchies, Hasta la Vista Dot-Com
 
 * TubularFaker.city => East Cowabungatown, Port Gnarlychester,  New Bummerville
 
