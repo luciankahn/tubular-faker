@@ -28,14 +28,3 @@ module TubularFaker
   end
 
 end
-
-########################### Examples: ####################################
-
-# TubularFaker.name
-#=> Bjork Duchovny
-
-# TubularFaker.company
-#=> Whatever Cereal
-
-# TubularFaker.city
-#=> East Cowabungatown
