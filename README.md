@@ -1,5 +1,9 @@
-# tubular-faker
+# tubular-faker 
 ## Totally tubular 90's-themed fake data gem for seeding databases / lorem ipsum / etc.
+### Current Version: tubular-faker (0.0.1)
+
+### Installation
+* gem install tubular-faker
 
 ### Methods and Example Output
 
