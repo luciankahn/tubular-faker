@@ -1,7 +1,7 @@
 module TubularFaker
 
   GENERAL = {
-    adjectives: ["Awesome", "Tubular", "Radical", "Mega", "Bomb", "Tight", "Dope", "Chillin'", "Rockin' Rappin'", "Cowabunga", "Far Out", "Whatever", "Booyah", "Hasta la Vista", "Fly", "Phat", "Wild and Crazy", "Bogus", "Busted", "Mondo", "Exactamundo", "Tubuloso", "Rad", "Wicked", "Hella", "Gnarly", "Cyber", "Nuclear", "Grunge", "Creepy", "Spooky", "Absolute", "Total", "Extreme"]
+    adjectives: ["Awesome", "Tubular", "Radical", "Mega", "Bomb", "Tight", "Dope", "Chillin'", "Rockin' Rappin'", "Cowabunga", "Far Out", "Whatever", "Booyah", "Hasta la Vista", "Fly", "Phat", "Wild and Crazy", "Bogus", "Busted", "Mondo", "Exactamundo", "Tubuloso", "Rad", "Wicked", "Hella", "Gnarly", "Cyber", "Nuclear", "Grunge", "Creepy", "Spooky", "Absolute", "Total", "Extreme", "Bummer"]
   }
   NAMES = {
     first_names: ["Kurt", "Eddie", "Dylan", "2Pac", "Mariah", "Madonna", "Bono", "The Notorious", "Janet", "Thom", "Tre", "Lauryn", "Lars", "Ice", "Vanilla", "Snoop", "Trent", "Beck", "Alanis", "Axl", "Bjork", "Gwen", "Prince", "Whitney", "Tori", "Ani", "Missy", "Seal", "Gavin", "Sinead", "Coolio", "Krist", "Courtney", "Sheryl", "Busta", "Hootie", "Sarah Michelle", "Neve", "Heather", "Luke", "Mark-Paul", "Melissa Joan", "Calista", "Tiffani", "River", "Blossom", "Clarissa", "Balki", "Frasier", "Regis", "Geraldo", "Beavis", "Butthead", "Roseanne", "Screech", "MacGyver", "Chandler", "Bart", "Zack", "Billy", "Kevin", "Jessica", "Uma"],
@@ -12,7 +12,7 @@ module TubularFaker
     city_suffix: ["town", "land", "ville", "berg", "view", "furt", "chester", "haven", "shire"]
   }
   COMPANIES = {
-    products: ["Juice", "Soakers", "Beans", "3D", "Dudes", "Dudettes", "Babies", "Cards", "Net", "Cereal", "Pogs", "Soda", "Beepers", "IIGS", "Headphones", "Sneakers", "Arcade", "2K", "64", "Body Splash", "Shimmer", "Trolls", "Flannel", "Boots", "Jewels", "Stickers", "Tapes", "Scrunchies", "Beanies", "Applets", "Frames", "Dot-Com", "Superhighway", "Netiquette", "Netizens", "Screensavers", "Virtual Reality", "BBS", "Hot Links"]
+    products: ["Juice", "Soakers", "Beans", "3D", "Dudes", "Dudettes", "Babies", "Cards", "Net", "Cereal", "Pogs", "Soda", "Beepers", "IIGS", "Headphones", "Sneakers", "Arcade", "2K", "64", "Body Splash", "Shimmer", "Trolls", "Flannel", "Boots", "Jewels", "Stickers", "Tapes", "Scrunchies", "Beanies", "Applets", "Frames", "Dot-Com", "Superhighway", "Netiquette", "Screensavers", "Virtual Reality", "BBS", "Hot Links", "Snax"]
   }
 
   def self.name
@@ -31,6 +31,11 @@ end
 
 ########################### Examples: ####################################
 
-puts TubularFaker.name
-puts TubularFaker.company
-puts TubularFaker.city
+# TubularFaker.name
+#=> Bjork Duchovny
+
+# TubularFaker.company
+#=> Whatever Cereal
+
+# TubularFaker.city
+#=> East Cowabungatown
