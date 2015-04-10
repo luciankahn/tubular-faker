@@ -2,30 +2,34 @@ module TubularFaker
 
   #### OPTIONS
 
-  GENERAL = {
-    adjectives: ["Awesome", "Tubular", "Radical", "Mega", "Bomb", "Tight", "Dope", "Chillin'", "Rockin' Rappin'", "Cowabunga", "Far Out", "Whatever", "Booyah", "Hasta la Vista", "Shady", "Fly", "Phat", "Wild and Crazy", "Bogus", "Busted", "Mondo", "Exactamundo", "Kewl", "Tubuloso", "Rad", "Wicked", "Hella", "Gnarly", "Cyber", "Nuclear", "Grunge", "Creepy", "Spooky", "Absolute", "Total", "Extreme", "Bummer", "l33t"],
-    numbers: ["2K", "64", "1994", "1995", "1996", "1997", "1998", "1999", "2000", "360", "180", "69", "1001", "3000", "311", "94", "95", "96", "97", "98", "99", "666", "667", "1337"],
-    years: ["1990", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998", "1999"]
-  }
-  NAMES = {
-    first_names: ["Kurt", "Eddie", "Dylan", "2Pac", "Mariah", "Madonna", "Bono", "The Notorious", "Janet", "Thom", "Tre", "Lauryn", "Lars", "Ice", "Vanilla", "Snoop", "Trent", "Beck", "Alanis", "Axl", "Bjork", "Gwen", "Prince", "Whitney", "Tori", "Ani", "Missy", "Seal", "Gavin", "Sinead", "Coolio", "Krist", "Courtney", "Sheryl", "Busta", "Hootie", "Sarah Michelle", "Neve", "Heather", "Luke", "Mark-Paul", "Melissa Joan", "Calista", "Tiffani", "River", "Blossom", "Clarissa", "Balki", "Frasier", "Regis", "Geraldo", "Beavis", "Butthead", "Roseanne", "Screech", "MacGyver", "Chandler", "Bart", "Zack", "Billy", "Kevin", "Jessica", "Uma", "Scully"],
-    last_names: ["Cobain", "Vedder", "Corgan", "Shakur", "Carey", "Bono", "Dre", "Kiedis", "B.I.G.", "Jackson", "Cool J.", "Ulrich", "Cube", "Ice", "Dogg", "Reznor", "Blige", "Rza", "Morissette", "Rose", "Latifah", "Stefani", "Houston", "DiFranco", "Amos", "Weiland", "Rossdale", "Manson", "Phair", "Grohl", "Novaselic", "Love", "Crow", "Rhymes", "Loder", "Clooney", "Aniston", "Gellar", "Duchovny", "Stamos", "Locklear", "Priestley", "Perry", "Doherty", "Gosselaar", "Taylor Thomas", "Lawless", "Applegate", "Soprano", "Flockhart", "Sorbo", "Love Hewitt", "Cosby", "Elfman", "Brandis", "Phoenix", "Pickles", "Carrey", "Kramer", "Seinfeld", "Simpson", "Urkel", "Lewinsky"]
-  }
   ADDRESSES = {
-    city_prefix: ["North", "East", "West", "South", "New", "Lake", "Port"],
-    city_suffix: ["town", "land", "ville", "berg", "view", "furt", "chester", "haven", "shire"]
+    city_prefix: ["East", "Lake", "New", "North", "Port", "South", "West"],
+    city_suffix: ["berg", "chester", "furt", "haven", "land", "shire", "town", "view", "ville"]
   }
+
   COMPANIES = {
-    products: ["Juice", "Soakers", "Beans", "3D", "Dudes", "Dudettes", "Babies", "Cards", "Net", "Cereal", "Pogs", "Soda", "Beepers", "IIGS", "Headphones", "Sneakers", "Arcade", "Body Splash", "Shimmer", "Trolls", "Flannel", "Boots", "Jewels", "Stickers", "Tapes", "Scrunchies", "Beanies", "Applets", "Frames", "Dot-Com", "Superhighway", "Netiquette", "Screensavers", "Virtual Reality", "BBS", "Hot Links", "Snax"]
+    products: ["3D", "Applets", "Arcade", "BBS", "Babies", "Beanies", "Beans", "Beepers", "Bellybutton Rings", "Body Splash", "Boots", "Cards", "Cereal", "Dot-Com", "Dudes", "Dudettes", "Flannel", "Frames", "Hair Dye", "Headphones", "Hot Links", "IIGS", "Jewels", "Juice", "Net", "Netiquette", "Pogs", "Screensavers", "Scrunchies", "Shimmer", "Snax", "Sneakers", "Soakers", "Soda", "Stickers", "Superhighway", "Tapes", "Trolls", "Virtual Reality"]
+  }
+
+  GENERAL = {
+    adjectives: ["Absolute", "Awesome", "Biodegradable", "Bogus", "Bomb", "Booyah", "Bummer", "Busted", "Chillin'", "Cowabunga", "Creepy", "Cyber", "Dope", "Emo", Exactamundo", "Extreme", "Far Out", "Fly", "Goth", "Gnarly", "Grunge", "Hasta la Vista", "Hella", "Kewl", "Mega", "Mondo", "Nuclear", "Phat", "Rad", "Radical", "Rockin' Rappin'", "Shady", "Spooky", "Tight", "Total", "Tubular", "Tubuloso", "Whatever", "Wiccan", "Wicked", "Wild and Crazy", "l33t"],
+    numbers: ["1001", "1337", "180", "1994", "1995", "1996", "1997", "1998", "1999", "2000", "2K", "3000", "311", "360", "64", "666", "667", "69", "94", "95", "96", "97", "98", "99"],
+    years: ["1990", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998", "1999"]
   }
 
   INTERNET = {
-    domains: ["aol", "hotmail", "geocities", "tripod", "angelfire", "earthlink"],
+    domains: ["angelfire", "aol", "earthlink", "geocities", "hotmail", "tripod"],
     dot: [".com", ".net"],
-    pages: ["index", "applet", "hotlinks", "guestbook", "homepage", "website", "cyber", "fanpage", "chatroom"]
+    pages: ["applet", "chatroom", "cyber", "fanpage", "guestbook", "homepage", "hotlinks", "index", "website"]
   }
+
   LINGO = {
-    catchphrases: ["Did I do that?", "D'oh!", "You got it, dude.", "It's not a tumor.", "There's no crying in baseball.", "Scha-wing!", "I am the great cornholio!", "Run Forrest, run!", "Allllllrighty then.", "No soup for you!", "As if!", "Oh my god, they killed Kenny!", "I see dead people.", "All that and a bag of chips.", "Don't go there!", "Eat my shorts!", "How's it hangin'?", "It's all good.", "NOT!", "PSYCH!", "No duh.", "Doy hickey.", "Oh snap!", "It's da bomb!", "So is your FACE.", "Talk to the hand.", "What up, dawg?", "What's the dillio?", "Yadda yadda yadda.", "Yoink!", "Your mom.", "So funny I forgot to laugh.", "Then why don't you marry it?", "Take a chill pill!", "You go girl!", "Kewl beans.", "L8r sk8r!", "Peace out, cub scout!", "Bling bling!", "Let's bounce!", "Mad props.", "Score!"]
+    catchphrases: ["All that and a bag of chips.", "Allllllrighty then.", "As if!", "Bling bling!", "D'oh!", "Did I do that?", "Don't go there!", "Doy hickey.", "Eat my shorts!", "How's it hangin'?", "I am the great cornholio!", "I see dead people.", "It's all good.", "It's da bomb!", "It's not a tumor.", "Kewl beans.", "L8r sk8r!", "Let's bounce!", "Mad props.", "NOT!", "No duh.", "No soup for you!", "Oh my god, they killed Kenny!", "Oh snap!", "PSYCH!", "Peace out, cub scout!", "Run Forrest, run!", "Scha-wing!", "Score!", "So funny I forgot to laugh.", "So is your FACE.", "Take a chill pill!", "Talk to the hand.", "Then why don't you marry it?", "There's no crying in baseball.", "What up, dawg?", "What's the dillio?", "Yadda yadda yadda.", "Yoink!", "You go girl!", "You got it, dude.", "Your mom."]
+  }
+
+  NAMES = {
+    first_names: ["2Pac", "Alanis", "Ani", "Axl", "Balki", "Bart", "Beavis", "Beck", "Billy", "Bjork", "Blossom", "Bono", "Busta", "Butthead", "Calista", "Chandler", "Clarissa", "Coolio", "Courtney", "Dylan", "Eddie", "Frasier", "Gavin", "Geraldo", "Gwen", "Heather", "Hootie", "Ice", "Janet", "Jessica", "Kevin", "Krist", "Kurt", "Lars", "Lauryn", "Luke", "MacGyver", "Madonna", "Mariah", "Mark-Paul", "Melissa Joan", "Missy", "Neve", "Prince", "Regis", "River", "Roseanne", "Sarah Michelle", "Screech", "Scully", "Seal", "Sheryl", "Sinead", "Snoop", "The Notorious", "Thom", "Tiffani", "Tori", "Tre", "Trent", "Uma", "Vanilla", "Whitney", "Yakko", "Zack"],
+    last_names: ["Amos", "Aniston", "Applegate", "B.I.G.", "Blige", "Boitano", "Bono", "Brandis", "Carey", "Carrey", "Clooney", "Cobain", "Cool J.", "Corgan", "Cosby", "Crow", "Cube", "DiFranco", "Dogg", "Doherty", "Dre", "Duchovny", "Elfman", "Flockhart", "Gellar", "Gosselaar", "Grohl", "Houston", "Ice", "Jackson", "Kiedis", "Kramer", "Latifah", "Lawless", "Lewinsky", "Locklear", "Loder", "Love", "Love Hewitt", "Manson", "Morissette", "Novaselic", "Perry", "Phair", "Phoenix", "Pickles", "Priestley", "Reznor", "Rhymes", "Rose", "Rossdale", "Rza", "Seinfeld", "Shakur", "Simpson", "Soprano", "Sorbo", "Stamos", "Stefani", "Taylor Thomas", "Ulrich", "Urkel", "Vedder", "Weiland"]
   }
 
   #### METHODS
@@ -42,6 +46,10 @@ module TubularFaker
     "#{ADDRESSES[:city_prefix].sample} #{GENERAL[:adjectives].sample}#{ADDRESSES[:city_suffix].sample}"
   end
 
+  def self.email
+    "#{NAMES[:first_names].sample.downcase.gsub(/[eio\s]/, {'e' => '3', 'i' => '1', 'o' => '0', ' ' => '_'})}#{GENERAL[:numbers].sample}@#{INTERNET[:domains].sample}#{INTERNET[:dot].sample}"
+  end
+
   def self.url
     "http://www.#{INTERNET[:domains].sample}#{INTERNET[:dot].sample}/#{NAMES[:first_names].sample.downcase.strip}#{GENERAL[:numbers].sample}/#{INTERNET[:pages].sample}.html"
   end
@@ -53,5 +61,32 @@ module TubularFaker
   def self.lingo
     "#{LINGO[:catchphrases].sample}"
   end
+  
+  # returns a paragraph of lorem ipsum
+  # or multiple paragraphs if you pass in { paragraphs: 3 } to the options hash
+  def self.lorem(opts = {})
+    text_blob = ""
+    paragraphs = opts[:paragraphs] || 1
+
+    1.upto(paragraphs) do
+      4.times do
+        text_blob << lorem_sentence + " "
+        text_blob << LINGO[:catchphrases].sample + ' '
+      end
+      text_blob << "\n\n"
+    end
+
+    text_blob.strip
+  end
+
+  # returns one lorem ipsum sentence
+  def self.lorem_sentence
+    sentence = ""
+    sentence <<  ( GENERAL[:adjectives].sample + " " ).capitalize
+    6.times { sentence << COMPANIES[:products].sample.downcase + " " }
+    sentence << COMPANIES[:products].sample.downcase + "."
+  end
+
+  
 
 end
