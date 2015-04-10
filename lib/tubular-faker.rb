@@ -61,5 +61,32 @@ module TubularFaker
   def self.lingo
     "#{LINGO[:catchphrases].sample}"
   end
+  
+  # returns a paragraph of lorem ipsum
+  # or multiple paragraphs if you pass in { paragraphs: 3 } to the options hash
+  def self.lorem(opts = {})
+    text_blob = ""
+    paragraphs = opts[:paragraphs] || 1
+
+    1.upto(paragraphs) do
+      4.times do
+        text_blob << lorem_sentence + " "
+        text_blob << LINGO[:catchphrases].sample + ' '
+      end
+      text_blob << "\n\n"
+    end
+
+    text_blob.strip
+  end
+
+  # returns one lorem ipsum sentence
+  def self.lorem_sentence
+    sentence = ""
+    sentence <<  ( GENERAL[:adjectives].sample + " " ).capitalize
+    6.times { sentence << COMPANIES[:products].sample.downcase + " " }
+    sentence << COMPANIES[:products].sample.downcase + "."
+  end
+
+  
 
 end
