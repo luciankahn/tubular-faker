@@ -41,6 +41,10 @@ module TubularFaker
   def self.city
     "#{ADDRESSES[:city_prefix].sample} #{GENERAL[:adjectives].sample}#{ADDRESSES[:city_suffix].sample}"
   end
+  
+  def self.email
+    "#{NAMES[:first_names].sample.gsub(/[eio\s]/, {'e' => '3', 'i' => '1', 'o' => '0', ' ' => '_'})}#{GENERAL[:numbers].sample}@#{INTERNET[:domains].sample}#{INTERNET[:dot].sample}"
+  end
 
   def self.url
     "http://www.#{INTERNET[:domains].sample}#{INTERNET[:dot].sample}/#{NAMES[:first_names].sample.downcase.strip}#{GENERAL[:numbers].sample}/#{INTERNET[:pages].sample}.html"
