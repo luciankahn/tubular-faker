@@ -12,7 +12,7 @@ module TubularFaker
   }
 
   GENERAL = {
-    adjectives: ["Absolute", "Awesome", "Biodegradable", "Bogus", "Bomb", "Booyah", "Bummer", "Busted", "Chillin'", "Cowabunga", "Creepy", "Cyber", "Dope", "Emo", Exactamundo", "Extreme", "Far Out", "Fly", "Goth", "Gnarly", "Grunge", "Hasta la Vista", "Hella", "Kewl", "Mega", "Mondo", "Nuclear", "Phat", "Rad", "Radical", "Rockin' Rappin'", "Shady", "Spooky", "Tight", "Total", "Tubular", "Tubuloso", "Whatever", "Wiccan", "Wicked", "Wild and Crazy", "l33t"],
+    adjectives: ["Absolute", "Awesome", "Biodegradable", "Bogus", "Bomb", "Booyah", "Bummer", "Busted", "Chillin'", "Cowabunga", "Creepy", "Cyber", "Dope", "Emo", "Exactamundo", "Extreme", "Far Out", "Fly", "Goth", "Gnarly", "Grunge", "Hasta la Vista", "Hella", "Kewl", "Mega", "Mondo", "Nuclear", "Phat", "Rad", "Radical", "Rockin' Rappin'", "Shady", "Spooky", "Tight", "Total", "Tubular", "Tubuloso", "Whatever", "Wiccan", "Wicked", "Wild and Crazy", "l33t"],
     numbers: ["1001", "1337", "180", "1994", "1995", "1996", "1997", "1998", "1999", "2000", "2K", "3000", "311", "360", "64", "666", "667", "69", "94", "95", "96", "97", "98", "99"],
     years: ["1990", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998", "1999"]
   }
@@ -61,7 +61,7 @@ module TubularFaker
   def self.lingo
     "#{LINGO[:catchphrases].sample}"
   end
-  
+
   # returns a paragraph of lorem ipsum
   # or multiple paragraphs if you pass in { paragraphs: 3 } to the options hash
   def self.lorem(opts = {})
@@ -87,6 +87,6 @@ module TubularFaker
     sentence << COMPANIES[:products].sample.downcase + "."
   end
 
-  
+
 
 end
